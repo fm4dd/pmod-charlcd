@@ -1,0 +1,49 @@
+# 12 MHz clock
+set_io -nowarn clk        35
+
+# RS232
+set_io -nowarn RX          6
+set_io -nowarn TX          9
+
+# LEDs and Button
+set_io -nowarn push_button        10
+set_io -nowarn LEDR_N     11
+set_io -nowarn LEDG_N     37
+
+# RGB LED Driver
+set_io -nowarn LED_RED_N  39
+set_io -nowarn LED_GRN_N  40
+set_io -nowarn LED_BLU_N  41
+
+# SPI Flash
+set_io -nowarn FLASH_SCK  15
+set_io -nowarn FLASH_SSB  16
+set_io -nowarn FLASH_IO0  14
+set_io -nowarn FLASH_IO1  17
+set_io -nowarn FLASH_IO2  12
+set_io -nowarn FLASH_IO3  13
+
+# PMOD 1A
+set_io -nowarn d[7]   4
+set_io -nowarn d[5]   2
+set_io -nowarn d[3]  47
+set_io -nowarn d[1]  45
+set_io -nowarn d[6]   3
+set_io -nowarn d[4]  48
+set_io -nowarn d[2]  46
+set_io -nowarn d[0]  44
+
+# PMOD 1B
+set_io -nowarn en     43
+set_io -nowarn rs     38
+set_io -nowarn rw     42
+
+# PMOD 2
+#set_io -nowarn P2_1       27
+#set_io -nowarn P2_2       25
+#set_io -nowarn P2_3       21
+#set_io -nowarn P2_4       19
+#set_io -nowarn P2_7       26
+#set_io -nowarn P2_8       23
+#set_io -nowarn P2_9       20
+#set_io -nowarn P2_10      18
