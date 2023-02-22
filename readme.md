@@ -27,9 +27,9 @@ http://fpga.fm4dd.com/
 -----|--------|---------------|--------|-----|--------|---------------|--------
 1    |	d[7]  |	LCD Data-7    | 4      |1    |	en    |	LCD EN Signal | 43
 2    |	d[5]  |	LCD Data-5    | 2      |2    |	rs    |	LCD RS Signal | 38
-3    |	d[3]  |	LCD Data-3    | 47     |3    |	rw    |	LCD RW Signal | 34
+3    |	d[3]  |	LCD Data-3    | 47     |3    |	-     |	Not connected | 34
 4    |  d[1]  |	LCD Data-1    | 45     |4    |  -     | Not connected | 31
-7    |	d[6]  |	LCD Data-6    | 3      |7    |	-     |	Not connected | 42
+7    |	d[6]  |	LCD Data-6    | 3      |7    |	rw    |	LCD RW Signal | 42
 8    |	d[4]  |	LCD Data-4    | 48     |8    |	-     |	Not connected | 36
 9    |  d[2]  |	LCD Data-2    |	46     |9    |  -     | Not connected | 32
 10   |  d[0]  |	LCD Data-0    |	44     |10   |  -     |	Not connected | 28
