@@ -39,9 +39,12 @@ http://fpga.fm4dd.com/
 | Board                               | Description                                                       |
 |-------------------------------------|-------------------------------------------------------------------|
 | [iCEBreaker](examples/icebreaker)   | CharLCD Verilog demo for the iCEBreaker FPGA (Lattice ICE40UP5K)  |
-| [Gatemate E1](examples/gatemate-e1) | CharLCD Verilog demo for the Gatemate E1 FPGA (Gatemate CCGM1A1)  |
+| [Gatemate E1](examples/gatemate) | CharLCD Verilog demo for the Gatemate FPGA (Gatemate CCGM1A1)  |
 
 ### Board Pictures
 <img src="images/icebreaker.png" width="480px">
 CharLCD PMOD, connected to the iCEBreaker board.
+
+<img src="examples/gatemate/display/sim/gm-pmod-charlcd.jpg" width="780px">
+CharLCD PMOD, connected to the Gatemate E1 board.
 

@@ -1,0 +1,12 @@
+c4d/
+gerber/
+reference/
+kicad/
+kicad/pmod-charlcd-backups/
+examples/gatemate/display/display*
+examples/gatemate/display/lut*
+examples/gatemate/display/log/*
+examples/gatemate/display/net/*
+fabfiles/gerber/*
+fabfiles/svg/*
+fabfiles/*.csv
