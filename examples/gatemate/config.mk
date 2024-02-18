@@ -5,7 +5,7 @@ EXE =
 ## toolchain
 YOSYS = /home/fm/cc-toolchain-linux/bin/yosys/yosys$(EXE)
 PR    = /home/fm/cc-toolchain-linux/bin/p_r/p_r$(EXE)
-OFL   = /usr/local/bin/openFPGALoader$(EXE)
+OFL   = /home/fm/cc-toolchain-linux/bin/openFPGALoader/openFPGALoader$(EXE)
 
 GTKW = gtkwave
 IVL = iverilog

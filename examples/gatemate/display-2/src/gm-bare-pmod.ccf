@@ -1,0 +1,32 @@
+## file: gm-proto-e1.ccf
+##
+## hardware pin constraints file for gm-proto-e1 THT board
+## https://github.com/fm4dd/gm-proto-e1
+## #######################################################
+## E1 Evaluation board constraints: 1x cloxk signal SB_A8
+## 8x onboard led and one push button on GPIO bank EB
+## #######################################################
+Pin_in  "clk"       Loc = "IO_SB_A8" | SCHMITT_TRIGGER=true;
+Pin_in  "rst"       Loc = "IO_EB_B0";
+Pin_out "e1led[0]"  Loc = "IO_EB_B1";
+Pin_out "e1led[1]"  Loc = "IO_EB_B2";
+Pin_out "e1led[2]"  Loc = "IO_EB_B3";
+Pin_out "e1led[3]"  Loc = "IO_EB_B4";
+Pin_out "e1led[4]"  Loc = "IO_EB_B5";
+Pin_out "e1led[5]"  Loc = "IO_EB_B6";
+Pin_out "e1led[6]"  Loc = "IO_EB_B7";
+Pin_out "e1led[7]"  Loc = "IO_EB_B8";
+## #######################################################
+## gm-study-max board constraints pmod header characterLCD
+## #######################################################
+Pin_out "lcd_rs"    Loc = "IO_NB_A5";
+Pin_in  "lcd_rw"    Loc = "IO_NB_B4"|PULLDOWN=true;
+Pin_out "lcd_en"    Loc = "IO_NB_A4";
+Pin_out "lcd_d[0]"  Loc = "IO_NB_B3";
+Pin_out "lcd_d[1]"  Loc = "IO_NB_A3";
+Pin_out "lcd_d[2]"  Loc = "IO_NB_B2";
+Pin_out "lcd_d[3]"  Loc = "IO_NB_A2";
+Pin_out "lcd_d[4]"  Loc = "IO_NB_B1";
+Pin_out "lcd_d[5]"  Loc = "IO_NB_A1";
+Pin_out "lcd_d[6]"  Loc = "IO_NB_B0";
+Pin_out "lcd_d[7]"  Loc = "IO_NB_A0";
