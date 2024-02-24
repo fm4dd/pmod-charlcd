@@ -42,9 +42,13 @@ http://fpga.fm4dd.com/
 | [Gatemate E1](examples/gatemate) | CharLCD Verilog demo for the Gatemate FPGA (Gatemate CCGM1A1)  |
 
 ### Board Pictures
-<img src="images/icebreaker.png" width="480px">
+<p align="center"><img src="images/icebreaker.png" width="410px"></p>
+
 CharLCD PMOD, connected to the iCEBreaker board.
 
-<img src="examples/gatemate/display/sim/gm-pmod-charlcd.jpg" width="780px">
+<img src="examples/gatemate/display/sim/gm-pmod-charlcd.jpg" width="640px">
 CharLCD PMOD, connected to the Gatemate E1 board.
+
+<img src="examples/ulx3s/display/ulx3s-progrun.jpg" width="640px">
+CharLCD PMOD, connected to the ULX3S board.
 

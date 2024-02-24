@@ -1,4 +1,5 @@
-PROJ     = pmod_charlcd
+PROJ     = display
+ADD_SRC  = debounce.v lcd_transmit.v
 
 PIN_DEF  = icebreaker.pcf
 DEVICE   = up5k
@@ -11,7 +12,7 @@ all: $(PROJ).rpt $(PROJ).bin
 	$(TOOLPATH)/yosys -p 'synth_ice40 -top $(PROJ) -json $@' $< $(ADD_SRC)
 
 %.asc: %.json
-	$(TOOLPATH)/nextpnr-ice40 --package $(PACKAGE) --$(DEVICE) --asc $@ --pcf $(PIN_DEF) --json $^
+	$(TOOLPATH)/nextpnr-ice40 --package $(PACKAGE) --$(DEVICE) --asc $@ --pcf $(PIN_DEF) --json $^ --force
 
 %.bin: %.asc
 	$(TOOLPATH)/icepack $< $@
